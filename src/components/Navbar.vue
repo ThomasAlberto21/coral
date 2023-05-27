@@ -3,7 +3,7 @@
   <div class="container">
    <nav class="navbar navbar-light bg-white">
     <a class="navbar-brand" href="#">
-     <img src="../assets/images/logo.png" width="160" height="30" alt="" />
+     <img src="../assets/images/logo.png" width="155" height="30" alt="" />
     </a>
    </nav>
    <button
@@ -43,6 +43,11 @@
      </li>
      <li class="nav-item">
       <a class="nav-link">Contact</a>
+     </li>
+    </ul>
+    <ul class="navbar-nav">
+     <li class="nav-item ms-auto">
+      <a class="nav-link"><i class="bi bi-cart h4"></i></a>
      </li>
     </ul>
    </div>
