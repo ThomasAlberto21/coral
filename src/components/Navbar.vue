@@ -1,7 +1,11 @@
 <template>
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ <nav class="navbar navbar-expand-lg bg-white">
   <div class="container">
-   <a class="navbar-brand" href="#">Navbar</a>
+   <nav class="navbar navbar-light bg-white">
+    <a class="navbar-brand" href="#">
+     <img src="../assets/images/logo.png" width="160" height="30" alt="" />
+    </a>
+   </nav>
    <button
     class="navbar-toggler"
     type="button"
@@ -14,12 +18,12 @@
     <span class="navbar-toggler-icon"></span>
    </button>
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 gap-2">
      <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <router-link to="/" class="nav-link fw-normal">Home</router-link>
      </li>
      <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <router-link to="/about" class="nav-link fw-normal">About</router-link>
      </li>
      <li class="nav-item dropdown">
       <a
@@ -29,23 +33,18 @@
        data-bs-toggle="dropdown"
        aria-expanded="false"
       >
-       Dropdown
+       Products
       </a>
       <ul class="dropdown-menu">
-       <li><a class="dropdown-item" href="#">Action</a></li>
-       <li><a class="dropdown-item" href="#">Another action</a></li>
-       <li><hr class="dropdown-divider" /></li>
-       <li><a class="dropdown-item" href="#">Something else here</a></li>
+       <li><a class="dropdown-item">All Clothing</a></li>
+       <li><a class="dropdown-item">Man's Clothing</a></li>
+       <li><a class="dropdown-item" href="#">Woman's Clothing</a></li>
       </ul>
      </li>
      <li class="nav-item">
-      <a class="nav-link disabled">Disabled</a>
+      <a class="nav-link">Contact</a>
      </li>
     </ul>
-    <form class="d-flex" role="search">
-     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-     <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
    </div>
   </div>
  </nav>
