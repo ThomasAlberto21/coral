@@ -18,7 +18,7 @@
     <span class="navbar-toggler-icon"></span>
    </button>
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 gap-2">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
      <li class="nav-item">
       <router-link to="/" class="nav-link fw-normal">Home</router-link>
      </li>
@@ -36,18 +36,20 @@
        Products
       </a>
       <ul class="dropdown-menu">
-       <li><a class="dropdown-item">All Clothing</a></li>
-       <li><a class="dropdown-item">Man's Clothing</a></li>
-       <li><a class="dropdown-item" href="#">Woman's Clothing</a></li>
+       <li><router-link to="/all_clothing" class="dropdown-item">All Clothing</router-link></li>
+       <li><router-link to="/man's_clothing" class="dropdown-item">Man's Clothing</router-link></li>
+       <li>
+        <router-link to="/woman's clothing" class="dropdown-item">Woman's Clothing</router-link>
+       </li>
       </ul>
      </li>
      <li class="nav-item">
-      <a class="nav-link">Contact</a>
+      <router-link to="/contact" class="nav-link fw-normal">Contact Us</router-link>
      </li>
     </ul>
-    <ul class="navbar-nav">
-     <li class="nav-item ms-auto">
-      <a class="nav-link"><i class="bi bi-cart h4"></i></a>
+    <ul class="navbar-nav ms-auto gap-2">
+     <li class="nav-item">
+      <router-link to="/cart" class="nav-link"><i class="bi bi-cart h5"></i></router-link>
      </li>
     </ul>
    </div>
