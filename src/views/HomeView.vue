@@ -3,14 +3,14 @@
     <Hero />
     <Categories />
 
-    <div class="container">
+    <div class="container mb-5">
       <div class="text-center my-5">
         <h1 class="fw-bolder">Trending Now</h1>
         <p class="fst-italic">Find the best fashion and what's currently trending</p>
       </div>
       <div class="row">
         <div
-          class="col-lg-3 col-md-6 mb-5"
+          class="col-lg-3 col-md-6 my-3"
           v-for="trending_product in trending_products"
           :key="trending_product.id"
         >
