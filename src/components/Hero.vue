@@ -10,7 +10,10 @@
             but things on a small scale.
           </h4>
 
-          <button class="btn mt-4 px-5 py-3 fw-bolder text-light" style="background-color: #2dc071">
+          <button
+            class="btn mt-4 px-5 py-3 fw-bolder text-light shadow"
+            style="background-color: #2dc071"
+          >
             SHOP NOW
           </button>
         </div>
