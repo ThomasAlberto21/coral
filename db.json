@@ -2,7 +2,7 @@
   "trending_products": [
     {
       "id": 1,
-      "title": "Gucci Print Leather Small Waistbag",
+      "title": "Print Leather Small Waistbag",
       "categories": "Man's Fashion",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
       "price": 799.94,
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "title": "Gucci Classic Strap Black Cap",
+      "title": "Classic Strap Black Cap",
       "categories": "Man's Fashion",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
       "price": 402,
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "title": "LOUIS VUITTON Sleeveless Belted A-line Dress",
+      "title": "Sleeveless Belted A-line",
       "categories": "Woman's Fashion",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
       "price": 800,
@@ -26,11 +26,11 @@
     },
     {
       "id": 4,
-      "title": "LOUIS VUITTON Red Floral & Black Velvet Dress",
+      "title": "Metal Detail Dress",
       "categories": "Woman's Fashion",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
       "price": 475.54,
-      "image": "https://images.unsplash.com/photo-1494515740382-c1c0585affeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80"
+      "image": "https://img.huntstreet.com/uploads/product/images/000/664/706/real/12%20(2)%20-%20Copy.jpg"
     }
   ]
 }
