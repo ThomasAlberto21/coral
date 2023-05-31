@@ -1,7 +1,7 @@
 <template>
   <section class="categories">
     <div class="container">
-      <div class="row justify-content-center align-items-center mt-4 mb-5 gap-lg-0 gap-md-3 gap-3">
+      <div class="row justify-content-center align-items-center mt-4 mb-5 gap-lg-0 gap-md-3 gap-2">
         <div class="man_model col-lg-6 position-relative">
           <div class="label position-absolute bottom-0 ms-2">
             <h3 class="text-light fw-bold">Man's Fashions</h3>
