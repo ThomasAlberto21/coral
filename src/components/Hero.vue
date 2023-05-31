@@ -32,4 +32,8 @@ export default {
   background-position: center;
   height: 100vh;
 }
+
+.btn:hover {
+  opacity: 0.7;
+}
 </style>
