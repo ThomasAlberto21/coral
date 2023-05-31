@@ -2,6 +2,12 @@
   <main>
     <Hero />
     <Categories />
+
+    <div class="container">
+      <div class="row">
+        
+      </div>
+    </div>
   </main>
 </template>
 
