@@ -35,6 +35,7 @@ export default {
 .man_model:hover {
   opacity: 0.7;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
 .girl_model {
@@ -46,5 +47,6 @@ export default {
 .girl_model:hover {
   opacity: 0.7;
   cursor: pointer;
+  transition: all 0.2s;
 }
 </style>
