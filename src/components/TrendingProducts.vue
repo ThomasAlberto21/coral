@@ -14,6 +14,7 @@
           {{ trending_product.title }}
         </h5>
         <p class="card-price fw-normal">${{ trending_product.price }}</p>
+        <p class="card-rating fw-semibold text-warning">{{ trending_product.rating }} / 5</p>
       </div>
     </router-link>
   </section>
