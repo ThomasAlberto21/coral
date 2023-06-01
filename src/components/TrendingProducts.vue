@@ -6,7 +6,7 @@
     >
       <img :src="trending_product.image" alt="trending_product_img" class="img-fluid" />
 
-      <div class="card-body mt-3 text-dark">
+      <div class="card-body mt-3">
         <figcaption class="blockquote-footer">
           <cite title="Source Title">{{ trending_product.categories }}</cite>
         </figcaption>
@@ -14,7 +14,9 @@
           {{ trending_product.title }}
         </h5>
         <p class="card-price fw-normal">${{ trending_product.price }}</p>
-        <p class="card-rating fw-semibold text-warning">{{ trending_product.rating }} / 5</p>
+        <p class="card-rating fw-semibold text-warning">
+          <i class="bi bi-star-fill"></i> {{ trending_product.rating }} / 5
+        </p>
       </div>
     </router-link>
   </section>
