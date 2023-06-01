@@ -34,13 +34,13 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link to="/all_clothing" class="dropdown-item">All Fashions</router-link>
+                <router-link to="/all_fashions" class="dropdown-item">All Fashions</router-link>
               </li>
               <li>
-                <router-link to="/man's_clothing" class="dropdown-item">Man's Fashions</router-link>
+                <router-link to="/man's_fashions" class="dropdown-item">Man's Fashions</router-link>
               </li>
               <li>
-                <router-link to="/woman's clothing" class="dropdown-item"
+                <router-link to="/woman's_fashions" class="dropdown-item"
                   >Woman's Fashions</router-link
                 >
               </li>
