@@ -4,7 +4,7 @@
       <!-- Our Mission -->
       <div class="text-center mt-5">
         <h1 class="fw-bold mb-3">Our Mission</h1>
-        <p class="fw-normal px-5">
+        <p class="fw-normal px-lg-5 px-0">
           Providing an unparalleled online shopping experience, offering high-quality products,
           outstanding customer service and guaranteed transaction security, thereby meeting our
           customers' needs and satisfaction with every interaction.
@@ -12,8 +12,8 @@
       </div>
 
       <!-- About -->
-      <div class="row text-start justify-content-center align-items-center">
-        <div class="col-6">
+      <div class="row text-lg-start text-center justify-content-center align-items-center">
+        <div class="col-lg-6 col-12">
           <h1 class="fw-bold mb-3">About</h1>
           <p class="fw-normal">
             We are an e-commerce platform dedicated to fulfilling your online shopping needs. With
@@ -32,7 +32,7 @@
           </p>
         </div>
 
-        <div class="col-6">
+        <div class="col-6 d-lg-block d-none">
           <img src="../assets/images/about_img.png" alt="about_img" class="img-fluid" />
         </div>
       </div>

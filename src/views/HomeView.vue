@@ -5,7 +5,7 @@
     <About />
 
     <!-- Trending Products -->
-    <div class="container mb-5">
+    <div class="container my-5">
       <div class="text-center my-5">
         <h1 class="fw-bolder">Trending Now</h1>
         <p class="fst-italic">Find the best fashion and what's currently trending</p>
