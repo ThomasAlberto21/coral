@@ -2,7 +2,9 @@
   <main>
     <Hero />
     <Categories />
+    <About />
 
+    <!-- Trending Products -->
     <div class="container mb-5">
       <div class="text-center my-5">
         <h1 class="fw-bolder">Trending Now</h1>
@@ -24,6 +26,7 @@
 <script>
 import axios from 'axios';
 import Hero from '../components/Hero.vue';
+import About from '../components/About.vue';
 import Categories from '../components/Categories.vue';
 import TrendingProducts from '../components/TrendingProducts.vue';
 
@@ -32,7 +35,8 @@ export default {
   components: {
     Hero,
     Categories,
-    TrendingProducts
+    TrendingProducts,
+    About
   },
 
   data() {
