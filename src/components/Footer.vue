@@ -1,6 +1,6 @@
 <template>
-  <footer class="text-center text-white" style="background-color: #f1f1f1">
-    <div class="container pt-4">
+  <footer class="text-center text-white mt-5" style="background-color: #f1f1f1">
+    <div class="container pt-2">
       <section class="mb-4">
         <!-- Facebook -->
         <a

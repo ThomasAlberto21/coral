@@ -22,9 +22,6 @@
           <li class="nav-item">
             <router-link to="/" class="nav-link fw-normal">Home</router-link>
           </li>
-          <li class="nav-item">
-            <router-link to="/about" class="nav-link fw-normal">About</router-link>
-          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -37,14 +34,14 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link to="/all_clothing" class="dropdown-item">All Clothing</router-link>
+                <router-link to="/all_clothing" class="dropdown-item">All Fashions</router-link>
               </li>
               <li>
-                <router-link to="/man's_clothing" class="dropdown-item">Man's Clothing</router-link>
+                <router-link to="/man's_clothing" class="dropdown-item">Man's Fashions</router-link>
               </li>
               <li>
                 <router-link to="/woman's clothing" class="dropdown-item"
-                  >Woman's Clothing</router-link
+                  >Woman's Fashions</router-link
                 >
               </li>
             </ul>
