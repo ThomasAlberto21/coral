@@ -37,11 +37,11 @@
                 <router-link to="/all_products" class="dropdown-item">All Products</router-link>
               </li>
               <li>
-                <router-link to="/man's_fashions" class="dropdown-item">Man's Fashions</router-link>
+                <router-link to="/man's_products" class="dropdown-item">Man's Products</router-link>
               </li>
               <li>
-                <router-link to="/woman's_fashions" class="dropdown-item"
-                  >Woman's Fashions</router-link
+                <router-link to="/woman's_products" class="dropdown-item"
+                  >Woman's Products</router-link
                 >
               </li>
             </ul>
