@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Our Mission -->
       <div class="text-center mt-5">
-        <h1 class="fw-bold">Our Mission</h1>
+        <h1 class="fw-bold mb-3">Our Mission</h1>
         <p class="fw-normal px-5">
           Providing an unparalleled online shopping experience, offering high-quality products,
           outstanding customer service and guaranteed transaction security, thereby meeting our
