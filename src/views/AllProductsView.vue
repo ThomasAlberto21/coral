@@ -9,11 +9,13 @@
         <div class="col-6">
           <div class="input-group">
             <input
+              v-model="search"
               type="text"
               class="form-control"
               placeholder="Search Products..."
               aria-label="Search Plants..."
               aria-describedby="basic-addon2"
+              @keyup="searchProducts"
             />
             <div class="input-group-text bg-success opacity-75" id="search">
               <i class="bi bi-search text-light"></i>
@@ -23,14 +25,14 @@
       </div>
 
       <!-- Card Products -->
-      <div class="row justify-content-center align-items-center">
+      <div class="all_products row justify-content-center gap-5">
         <section
-          class="all_products card border-0 shadow-lg col-lg-3 col-md-2 mt-5 mx-3"
+          class="card border-0 shadow-lg col-lg-3 col-md-5 mt-5 rounded-2"
           v-for="all_product in all_products"
           :key="all_product.id"
         >
           <div style="text-decoration: none; color: inherit">
-            <img :src="all_product.image" alt="all_product_img" class="img-fluid mt-3 w-100" />
+            <img :src="all_product.image" alt="all_product_img" class="img-fluid mt-5" />
 
             <div class="card-body mt-3">
               <figcaption class="blockquote-footer">
@@ -59,13 +61,21 @@ export default {
 
   data() {
     return {
-      all_products: []
+      all_products: [],
+      search: ''
     };
   },
 
   methods: {
     setAllProducts(data) {
       this.all_products = data;
+    },
+
+    searchProducts() {
+      axios
+        .get('http://localhost:3000/all_products?q=' + this.search)
+        .then((response) => this.setAllProducts(response.data))
+        .catch((error) => console.log(error));
     },
 
     fetchDataAllProducts() {
