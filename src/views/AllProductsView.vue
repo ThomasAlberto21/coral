@@ -7,20 +7,18 @@
         </div>
 
         <div class="col-6">
-          <div class="input-group">
+          <form class="d-flex" role="search" @submit.prevent="searchProducts">
             <input
               v-model="search"
-              type="text"
-              class="form-control"
-              placeholder="Search Products..."
-              aria-label="Search Plants..."
-              aria-describedby="basic-addon2"
-              @keyup="searchProducts"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
             />
-            <div class="input-group-text bg-success opacity-75" id="search">
-              <i class="bi bi-search text-light"></i>
-            </div>
-          </div>
+            <button class="btn btn-success" type="submit" @click="searchProducts">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
         </div>
       </div>
 
