@@ -7,7 +7,8 @@
       class="card border-0 shadow-lg col-lg-3 col-md-5 rounded-2"
       style="text-decoration: none; color: inherit"
     >
-      <div style="text-decoration: none; color: inherit">
+      <!-- Description -->
+      <div class="description">
         <img :src="all_product.image" alt="all_product_img" class="img-fluid mt-5" />
 
         <div class="card-body mt-3">
@@ -33,3 +34,11 @@ export default {
   props: ['all_products']
 };
 </script>
+
+<style>
+.card:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+</style>
