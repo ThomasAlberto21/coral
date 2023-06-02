@@ -1,7 +1,7 @@
 <template>
   <section class="all_products">
     <div class="container">
-      <div class="row mt-5">
+      <div class="row my-5">
         <div class="col-6">
           <h3 class="fw-semibold">All Products</h3>
         </div>
@@ -14,8 +14,9 @@
               type="search"
               placeholder="Search"
               aria-label="Search"
+              @keyup="searchProducts"
             />
-            <button class="btn btn-success" type="submit" @click="searchProducts">
+            <button class="btn btn-success" type="submit">
               <i class="bi bi-search"></i>
             </button>
           </form>
@@ -28,7 +29,7 @@
           v-for="all_product in all_products"
           :key="all_product.id"
         >
-          <AllProducts :all_products="all_products" />
+          <AllProducts :all_product="all_product" />
         </div>
       </div>
     </div>
