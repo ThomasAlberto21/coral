@@ -2,23 +2,24 @@
   <section class="trending_products_detail">
     <div class="container my-5">
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-5 col-12">
           <div class="main_image">
-            <img :src="products.image" class="rounded-4 img-fluid w-100" />
+            <img :src="products.image" class="rounded-4 img-fluid w-100 card" alt="Main Image" />
           </div>
 
-          <div class="thumbnails_image d-flex w-100 h-25 gap-2 mt-5">
+          <div class="thumbnails_image d-flex gap-2 mt-3 mb-5">
             <img
               v-for="(image, index) in products.thumbnails"
               :key="index"
-              class="img-fluid w-50 h-75 card"
               :src="image"
+              class="img-fluid w-100 h-100 card"
+              alt="Thumbnail Image"
               @click="changeImage(index)"
             />
           </div>
         </div>
 
-        <div class="col-lg-6 px-4">
+        <div class="col-lg-7 px-4">
           <h3 class="fw-bold">{{ products.title }}</h3>
           <hr />
           <div class="d-flex justify-content-between align-items-center">
@@ -29,6 +30,21 @@
           </div>
 
           <p class="fw-normal">{{ products.description }}</p>
+
+          <form class="mt-5" v-on:submit.prevent>
+            <div class="d-flex">
+              <p class="me-3 my-auto">Quantity</p>
+              <button class="btn btn-dark rounded-0">-</button>
+              <input
+                type="number"
+                class="rounded-0 mx-2 text-center border border-dark"
+                style="width: 3rem"
+              />
+              <button class="btn btn-dark rounded-0">+</button>
+            </div>
+
+            <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">Add To Cart</button>
+          </form>
         </div>
       </div>
     </div>
@@ -75,6 +91,8 @@ export default {
 };
 </script>
 
-
-
-<style></style>
+<style>
+.thumbnails_image {
+  cursor: pointer;
+}
+</style>
