@@ -21,6 +21,9 @@
 
         <div class="col-lg-7">
           <h3 class="fw-bold">{{ products.title }}</h3>
+          <figcaption class="blockquote-footer mt-3">
+            <cite title="Source Title">{{ products.categories }}</cite>
+          </figcaption>
           <hr />
           <div class="d-flex justify-content-between align-items-center">
             <h4 class="fw-semibold mb-3">${{ products.price }}</h4>
