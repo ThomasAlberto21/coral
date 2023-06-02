@@ -22,7 +22,15 @@
         </div>
       </div>
 
-      <AllProducts :all_products="all_products" />
+      <div class="row">
+        <div
+          class="col-lg-3 col-md-6 mb-5"
+          v-for="all_product in all_products"
+          :key="all_product.id"
+        >
+          <AllProducts :all_products="all_products" />
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -69,4 +77,3 @@ export default {
   }
 };
 </script>
-

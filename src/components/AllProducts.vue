@@ -1,10 +1,8 @@
 <template>
-  <section class="all_products row justify-content-center gap-5">
+  <section class="all_products mt-5 card border-0 shadow-lg rounded-2">
     <router-link
       :to="'/all_products_detail/' + all_product.id"
-      v-for="all_product in all_products"
-      :key="all_product.id"
-      class="card border-0 shadow-lg col-lg-3 col-md-5 rounded-2"
+      
       style="text-decoration: none; color: inherit"
     >
       <!-- Description -->

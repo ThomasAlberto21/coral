@@ -48,7 +48,7 @@ export default {
 
     getTrendingProducts() {
       axios
-        .get('  http://localhost:3000/trending_products')
+        .get('http://localhost:3000/trending_products')
         .then((response) => {
           this.setTrendingProducts(response.data);
         })

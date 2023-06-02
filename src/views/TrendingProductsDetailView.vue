@@ -1,6 +1,9 @@
 <template>
   <section class="trending_products_detail">
     <div class="container my-5 px-3">
+      <router-link to="/" class="btn btn-dark mb-5 fw-bold"
+        ><i class="bi bi-arrow-left"></i> Back</router-link
+      >
       <div class="row">
         <div class="col-lg-5 col-12">
           <div class="main_image">
