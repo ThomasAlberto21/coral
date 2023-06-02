@@ -23,7 +23,10 @@
       </div>
 
       <!-- Card Products -->
-      <div class="all_products row justify-content-center gap-5">
+      <router-link
+        :to="'/all_products_detail/' + all_products.id"
+        class="all_products row justify-content-center gap-5"
+      >
         <section
           class="card border-0 shadow-lg col-lg-3 col-md-5 mt-5 rounded-2"
           v-for="all_product in all_products"
@@ -46,7 +49,7 @@
             </div>
           </div>
         </section>
-      </div>
+      </router-link>
     </div>
   </section>
 </template>
