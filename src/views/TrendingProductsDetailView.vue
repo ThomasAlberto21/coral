@@ -5,12 +5,13 @@
         ><i class="bi bi-arrow-left"></i> Back</router-link
       >
       <div class="row">
-        <div class="col-lg-5 col-12">
+        <div class="col-lg-6 col-12">
           <div class="main_image">
             <img :src="products.image" class="img-fluid rounded-4 w-100 card" alt="Main Image" />
           </div>
-
-          <div class="thumbnails_image d-flex gap-2 mt-3 mb-5">
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="thumbnails_image d-flex gap-2 mb-5 mt-lg-0 mt-3">
             <img
               v-for="(image, index) in products.thumbnails"
               :key="index"
@@ -21,38 +22,38 @@
             />
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-7">
-          <h3 class="fw-bold">{{ products.title }}</h3>
-          <figcaption class="blockquote-footer mt-3">
-            <cite title="Source Title">{{ products.categories }}</cite>
-          </figcaption>
-          <hr />
-          <div class="d-flex justify-content-between align-items-center">
-            <h4 class="fw-semibold mb-3">${{ products.price }}</h4>
-            <p class="fw-semibold text-warning">
-              <i class="bi bi-star-fill"></i> {{ products.rating }} / 5
-            </p>
+      <div class="mt-5">
+        <h3 class="fw-bold">{{ products.title }}</h3>
+        <figcaption class="blockquote-footer mt-3">
+          <cite title="Source Title">{{ products.categories }}</cite>
+        </figcaption>
+        <hr />
+        <div class="d-flex justify-content-between align-items-center">
+          <h4 class="fw-semibold mb-3">${{ products.price }}</h4>
+          <p class="fw-semibold text-warning">
+            <i class="bi bi-star-fill"></i> {{ products.rating }} / 5
+          </p>
+        </div>
+
+        <p class="fw-normal">{{ products.description }}</p>
+
+        <form class="mt-5" v-on:submit.prevent>
+          <div class="d-flex">
+            <p class="me-3 my-auto">Quantity</p>
+            <button class="btn btn-dark rounded-0 px-3">-</button>
+            <input
+              type="number"
+              class="rounded-0 mx-2 text-center border border-dark"
+              style="width: 5rem"
+              v-model="quantity"
+            />
+            <button class="btn btn-dark rounded-0 px-3">+</button>
           </div>
 
-          <p class="fw-normal">{{ products.description }}</p>
-
-          <form class="mt-5" v-on:submit.prevent>
-            <div class="d-flex">
-              <p class="me-3 my-auto">Quantity</p>
-              <button class="btn btn-dark rounded-0 px-3">-</button>
-              <input
-                type="number"
-                class="rounded-0 mx-2 text-center border border-dark"
-                style="width: 5rem"
-                v-model="quantity"
-              />
-              <button class="btn btn-dark rounded-0 px-3">+</button>
-            </div>
-
-            <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">Add To Cart</button>
-          </form>
-        </div>
+          <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">Add To Cart</button>
+        </form>
       </div>
     </div>
   </section>

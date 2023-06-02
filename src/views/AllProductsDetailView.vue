@@ -5,12 +5,14 @@
         ><i class="bi bi-arrow-left"></i> Back</router-link
       >
       <div class="row">
+        <!-- Main Image -->
         <div class="col-lg-6">
           <div class="main_image">
             <img :src="products.image" class="img-fluid rounded-4 w-100 card" alt="Main Image" />
           </div>
         </div>
 
+        <!-- Thumbnails Image -->
         <div class="col-lg-6">
           <div class="thumbnails_image d-flex gap-2 mb-5 mt-lg-0 mt-3">
             <img
@@ -24,7 +26,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-12 mt-5">
+
+      <!-- Description -->
+      <div class="mt-5">
         <h3 class="fw-bold">{{ products.title }}</h3>
         <figcaption class="blockquote-footer mt-3">
           <cite title="Source Title">{{ products.categories }}</cite>
