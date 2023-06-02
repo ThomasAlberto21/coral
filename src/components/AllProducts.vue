@@ -1,9 +1,11 @@
 <template>
   <section class="all_products row justify-content-center gap-5">
-    <div
-      class="card border-0 shadow-lg col-lg-3 col-md-5 mt-5 rounded-2"
+    <router-link
+      :to="'/all_products_detail/' + all_product.id"
       v-for="all_product in all_products"
       :key="all_product.id"
+      class="card border-0 shadow-lg col-lg-3 col-md-5 rounded-2"
+      style="text-decoration: none; color: inherit"
     >
       <div style="text-decoration: none; color: inherit">
         <img :src="all_product.image" alt="all_product_img" class="img-fluid mt-5" />
@@ -21,7 +23,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </router-link>
   </section>
 </template>
 
