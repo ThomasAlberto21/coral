@@ -2,7 +2,6 @@
   <main>
     <Hero />
     <Categories />
-
     <!-- Trending Products -->
     <div class="container my-5">
       <div class="text-center my-5">
