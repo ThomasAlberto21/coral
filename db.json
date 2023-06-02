@@ -158,7 +158,7 @@
     },
     {
       "id": 8,
-      "title": "PRADA Logo Detailed Reversible Shearling Jackett",
+      "title": "PRADA Logo Detailed Reversible Shearling Jacket",
       "categories": "Man's Fashion",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
       "price": 552.13,
@@ -166,7 +166,8 @@
       "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3f069dc937932643b9207cdfd9a9fc0c.jpg",
       "thumbnails": [
         "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3f069dc937932643b9207cdfd9a9fc0c.jpg",
-        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/8a18c64ed2501dc0500783b45d7220b6.jpg"
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/8a18c64ed2501dc0500783b45d7220b6.jpg",
+        "https://www.prada.com/content/dam/pradabkg_products/U/UPW/UPW404/1Y7QF0806/UPW404_1Y7Q_F0806_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg"
       ]
     },
     {
@@ -189,7 +190,12 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
       "price": 352.23,
       "rating": 4.9,
-      "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/380be9dbf5c97518c23578a9aef46236.jpg"
+      "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/380be9dbf5c97518c23578a9aef46236.jpg",
+      "thumbnails": [
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/380be9dbf5c97518c23578a9aef46236.jpg",
+        "https://www.prada.com/content/dam/pradabkg_products/S/SGB/SGB801/1YDOF0N13/SGB801_1YDO_F0N13_S_212_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg",
+        "https://www.prada.com/content/dam/pradabkg_products/S/SGB/SGB801/1YDOF0N13/SGB801_1YDO_F0N13_S_212_MDB.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg"
+      ]
     },
     {
       "id": 11,
