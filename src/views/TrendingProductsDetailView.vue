@@ -95,4 +95,9 @@ export default {
 .thumbnails_image {
   cursor: pointer;
 }
+
+.thumbnails_image img:hover {
+  opacity: 0.6;
+  transition: all 0.2s;
+}
 </style>
