@@ -27,7 +27,7 @@
                 <td>{{ cart.quantity }}</td>
                 <td>${{ cart.products.price }}</td>
                 <td>
-                  <button class="btn btn-danger text-white">
+                  <button class="btn btn-danger text-white" @click="deleteCart(cart.id)">
                     <i class="bi bi-trash3"></i>
                   </button>
                 </td>
@@ -55,6 +55,18 @@ export default {
   methods: {
     setCarts(data) {
       this.carts = data;
+    },
+
+    deleteCart(id) {
+      axios
+        .delete('http://localhost:3000/carts/' + id)
+        .then(() => {
+          axios
+            .get('http://localhost:3000/carts')
+            .then((response) => this.setCarts(response.data))
+            .catch((error) => console.log(error));
+        })
+        .catch((error) => console.log(error));
     }
   },
 
