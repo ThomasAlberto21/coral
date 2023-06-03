@@ -1,13 +1,68 @@
 <template>
   <section class="cart">
-    <div class="container">
-      <h1>Cart</h1>
+    <div class="container my-5">
+      <h1 class="fw-bold">Cart</h1>
+      <div class="row">
+        <div class="col">
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Image</th>
+                <th scope="col">Title</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(cart, index) in carts" :key="cart.id">
+                <th>{{ index + 1 }}</th>
+                <td class="w-25">
+                  <img :src="cart.products.image" class="w-75 rounded-4" />
+                </td>
+                <td>
+                  {{ cart.products.title }}
+                </td>
+                <td>{{ cart.quantity }}</td>
+                <td>${{ cart.products.price }}</td>
+                <td>
+                  <button class="btn btn-danger text-white">
+                    <i class="bi bi-trash3"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
-  name: 'CartView'
+  name: 'CartView',
+
+  data() {
+    return {
+      carts: []
+    };
+  },
+
+  methods: {
+    setCarts(data) {
+      this.carts = data;
+    }
+  },
+
+  mounted() {
+    axios
+      .get('http://localhost:3000/carts')
+      .then((response) => this.setCarts(response.data))
+      .catch((error) => console.log(error));
+  }
 };
 </script>
