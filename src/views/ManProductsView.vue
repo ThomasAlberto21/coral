@@ -1,9 +1,9 @@
 <template>
-  <section class="man_products">
+  <section class="man_products_view">
     <div class="container">
       <div class="row my-5">
         <div class="col-6">
-          <h3 class="fw-bold">Man Products</h3>
+          <h3 class="fw-bold">Man's Products</h3>
         </div>
 
         <div class="col-6">
