@@ -10,7 +10,7 @@
           <form class="d-flex" role="search" @submit.prevent="searchProducts">
             <input
               v-model="search"
-              class="form-control me-2"
+              class="form-control"
               type="search"
               placeholder="Search"
               aria-label="Search"
