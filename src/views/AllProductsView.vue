@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row my-5">
         <div class="col-6">
-          <h3 class="fw-semibold">All Products</h3>
+          <h3 class="fw-bold">All Products</h3>
         </div>
 
         <div class="col-6">
@@ -16,9 +16,6 @@
               aria-label="Search"
               @keyup="searchProducts"
             />
-            <button class="btn btn-success" type="submit">
-              <i class="bi bi-search"></i>
-            </button>
           </form>
         </div>
       </div>
