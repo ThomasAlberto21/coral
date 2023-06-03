@@ -24,33 +24,39 @@
         </div>
         <div class="modal-body text-start">
           <form>
+            <!-- Name -->
             <div class="mb-3">
               <label class="form-label fw-bold">Name</label>
               <input
                 type="text"
                 class="form-control"
-                id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Input Your Name..."
                 required
+                v-model="orders.name"
               />
             </div>
+
+            <!-- Address -->
             <div class="mb-3">
               <label class="form-label fw-bold">Address</label>
               <input
-                type="password"
+                type="text"
                 class="form-control"
-                id="exampleInputPassword1"
                 placeholder="Input Your Adress.."
                 required
+                v-model="orders.address"
               />
             </div>
+
+            <!-- Other Comments -->
             <div class="mb-3">
               <label class="form-label fw-bold">Other Comments</label>
               <textarea
                 rows="5"
                 class="form-control"
                 placeholder="Enter Your Other Commets..."
+                v-model="orders.comments"
               ></textarea>
             </div>
             <p class="fw-bold">Total Price : ${{ totalPrice }}</p>
@@ -74,7 +80,7 @@
           >
             Close
           </button>
-          <button type="button" class="btn btn-dark" :disabled="!isChecked">
+          <button type="button" class="btn btn-dark" :disabled="!isChecked" @click="checkoutOrders">
             Checkout <i class="bi bi-cart-check"></i>
           </button>
         </div>
@@ -84,12 +90,16 @@
 </template>
 
 <script>
+import axios from 'axios';
+import { successOrder, failedOrder } from '@/utils/toast';
+
 export default {
   name: 'ModalComponent',
-  props: ['totalPrice'],
+  props: ['totalPrice', 'carts'],
 
   data() {
     return {
+      orders: {},
       isChecked: false
     };
   },
@@ -97,6 +107,26 @@ export default {
   methods: {
     inputClicked() {
       this.isChecked = !this.isChecked;
+    },
+
+    checkoutOrders() {
+      if (this.orders.name && this.orders.address && this.orders.comments) {
+        this.orders.carts = this.carts;
+        axios.post('http://localhost:3000/orders', this.orders).then(() => {
+          this.carts.map(async (item) => {
+            try {
+              return await axios.delete('http://localhost:3000/carts/' + item.id);
+            } catch (error) {
+              console.log(error);
+            }
+          });
+
+          this.$router.push({ path: '/success_orders' });
+          successOrder();
+        });
+      } else {
+        failedOrder();
+      }
     }
   }
 };

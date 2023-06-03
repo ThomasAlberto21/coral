@@ -5,6 +5,7 @@ import AllProductsView from '../views/AllProductsView.vue';
 import ManProductsView from '../views/ManProductsView.vue';
 import WomanProductsView from '../views/WomanProductsView.vue';
 import CartView from '../views/CartView.vue';
+import SuccessOrdersView from '../views/SuccessOrdersView.vue';
 
 // Detail views
 import AllProductsDetailView from '../views/AllProductsDetailView.vue';
@@ -64,6 +65,11 @@ const router = createRouter({
       path: '/contact',
       name: 'ContactView',
       component: ContactView
+    },
+    {
+      path: '/success_orders',
+      name: 'SuccessOrdersView',
+      component: SuccessOrdersView
     }
   ]
 });

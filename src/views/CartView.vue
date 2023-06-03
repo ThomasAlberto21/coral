@@ -43,7 +43,7 @@
             </tbody>
           </table>
 
-          <Modal :totalPrice="totalPrice" />
+          <Modal :totalPrice="totalPrice" :carts="carts" />
         </div>
       </div>
     </div>

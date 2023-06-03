@@ -39,7 +39,7 @@ export function deleteCart(message, options) {
 }
 
 export function successOrder(message, options) {
-  return toast.success('Order Plant Success', {
+  return toast.success('Order Products Success', {
     position: 'top-right',
     timeout: 2000,
     closeOnClick: true,
