@@ -50,6 +50,7 @@
 
 <script>
 import axios from 'axios';
+import { deleteCart } from '@/utils/toast';
 
 export default {
   name: 'CartView',
@@ -69,6 +70,7 @@ export default {
       axios
         .delete('http://localhost:3000/carts/' + id)
         .then(() => {
+          deleteCart();
           axios
             .get('http://localhost:3000/carts')
             .then((response) => this.setCarts(response.data))
