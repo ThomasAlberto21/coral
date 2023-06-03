@@ -1,6 +1,11 @@
 <template>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <button
+    type="button"
+    class="btn btn-dark float-end"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
     Checkout <i class="bi bi-cart-check"></i>
   </button>
 
@@ -56,9 +61,7 @@
                 id="exampleCheck1"
                 v-model="isChecked"
               />
-              <label class="form-check-label" for="exampleCheck1"
-                >Please check to acknowledge our Privacy & Terms Policy</label
-              >
+              <label class="form-check-label" for="exampleCheck1">Your data in correct? </label>
             </div>
           </form>
         </div>
