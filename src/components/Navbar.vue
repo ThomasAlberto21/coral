@@ -46,9 +46,6 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <router-link to="/contact" class="nav-link fw-normal">Contact Us</router-link>
-          </li>
         </ul>
         <ul class="navbar-nav ms-auto gap-2">
           <li class="nav-item">

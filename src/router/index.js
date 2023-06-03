@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import ContactView from '../views/ContactView.vue';
 import AllProductsView from '../views/AllProductsView.vue';
 import ManProductsView from '../views/ManProductsView.vue';
 import WomanProductsView from '../views/WomanProductsView.vue';
@@ -60,11 +59,6 @@ const router = createRouter({
       path: '/cart',
       name: 'CartView',
       component: CartView
-    },
-    {
-      path: '/contact',
-      name: 'ContactView',
-      component: ContactView
     },
     {
       path: '/success_orders',
