@@ -42,14 +42,14 @@
         <form class="mt-5" v-on:submit.prevent>
           <div class="d-flex">
             <p class="me-3 my-auto">Quantity</p>
-            <button class="btn btn-dark rounded-0 px-3">-</button>
+            <button class="btn btn-dark rounded-0 px-3" @click="decrement">-</button>
             <input
               type="number"
               class="rounded-0 mx-2 text-center border border-dark"
               style="width: 5rem"
-              v-model="quantity"
+              v-model="carts.quantity"
             />
-            <button class="btn btn-dark rounded-0 px-3">+</button>
+            <button class="btn btn-dark rounded-0 px-3" @click="increment">+</button>
           </div>
 
           <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">
@@ -70,11 +70,21 @@ export default {
   data() {
     return {
       products: {},
-      quantity: 1
+      carts: { quantity: 1 }
     };
   },
 
   methods: {
+    increment() {
+      this.carts.quantity++;
+    },
+
+    decrement() {
+      if (this.carts.quantity > 1) {
+        this.carts.quantity--;
+      }
+    },
+
     setProducts(data) {
       this.products = data;
     },
