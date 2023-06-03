@@ -53,7 +53,7 @@
             <button class="btn btn-dark rounded-0 px-3" @click="increment">+</button>
           </div>
 
-          <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">
+          <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold" @click="submitOrder">
             Add To Cart <i class="bi bi-cart h5"></i>
           </button>
         </form>
@@ -98,6 +98,16 @@ export default {
       axios
         .get('http://localhost:3000/woman_products/' + this.$route.params.id)
         .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error));
+    },
+
+    submitOrder() {
+      this.carts.products = this.products;
+      axios
+        .post('http://localhost:3000/carts', this.carts)
+        .then(() => {
+          this.$router.push({ path: '/cart' });
+        })
         .catch((error) => console.log(error));
     }
   },
