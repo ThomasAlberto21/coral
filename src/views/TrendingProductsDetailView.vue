@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-6 col-12">
           <div class="main_image">
-            <img :src="products.image" class="img-fluid rounded-4 w-100 card" alt="Main Image" />
+            <img :src="products.image" class="img-fluid w-100 card" alt="Main Image" />
           </div>
         </div>
         <div class="col-lg-6 col-12">
@@ -52,7 +52,9 @@
             <button class="btn btn-dark rounded-0 px-3">+</button>
           </div>
 
-          <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">Add To Cart</button>
+          <button class="btn btn-dark rounded-3 w-100 mt-4 py-3 fw-bold">
+            Add To Cart <i class="bi bi-cart h5"></i>
+          </button>
         </form>
       </div>
     </div>
