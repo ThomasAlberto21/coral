@@ -68,6 +68,7 @@
 
 <script>
 import axios from 'axios';
+import { addCart } from '@/utils/toast';
 
 export default {
   name: 'AllProductsDetailView',
@@ -115,6 +116,7 @@ export default {
         .post('http://localhost:3000/carts', this.carts)
         .then(() => {
           this.$router.push({ path: '/cart' });
+          addCart();
         })
         .catch((error) => console.log(error));
     }

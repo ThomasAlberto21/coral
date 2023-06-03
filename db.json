@@ -397,5 +397,96 @@
       ]
     }
   ],
-  "carts": []
+  "carts": [
+    {
+      "quantity": 2,
+      "products": {
+        "id": 1,
+        "title": "Gucci Print Leather Small Waistbag",
+        "categories": "Man's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 799.94,
+        "rating": 4.5,
+        "image": "https://theluxeculture.com/wp-content/uploads/2022/08/1649392460496004.jpg",
+        "thumbnails": [
+          "https://theluxeculture.com/wp-content/uploads/2022/08/1649392460496004.jpg",
+          "https://cdn.shopify.com/s/files/1/0988/4598/products/guccibumbagsmall_8_1024x1024.jpg?v=1624044098",
+          "https://cdn.shopify.com/s/files/1/0988/4598/products/guccibumbagsmall_7_1024x1024.jpg?v=1624044098"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 2,
+        "title": "Gucci Original Gg Canvas Baseball Hat With Web",
+        "categories": "Man's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 402.22,
+        "rating": 4.8,
+        "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/a781e75d-63bc-49fa-879a-48998f60e735.jpg",
+        "thumbnails": [
+          "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/a781e75d-63bc-49fa-879a-48998f60e735.jpg",
+          "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/7a8a0f76-db3c-4cfd-be9d-a6af89261711.jpg",
+          "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/10/6541855e-12f1-4858-b1b9-d5a246859d61.jpg"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 3,
+        "title": "LOUIS VUITTON Sleeveless Belted A-line",
+        "categories": "Woman's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 800.45,
+        "rating": 4.6,
+        "image": "https://img.huntstreet.com/uploads/product/images/001/006/346/real/16-1.jpg",
+        "thumbnails": [
+          "https://img.huntstreet.com/uploads/product/images/001/006/346/real/16-1.jpg",
+          "https://hsuploadimage.s3.ap-southeast-1.amazonaws.com/images/142704/real/16-3.jpg",
+          "https://img.huntstreet.com/uploads/product/images/001/006/347/real/16-2.jpg"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 5,
+        "title": "PRADA Logo Detailed Reversible Shearling Jacket",
+        "categories": "Man's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 552.13,
+        "rating": 4.7,
+        "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3f069dc937932643b9207cdfd9a9fc0c.jpg",
+        "thumbnails": [
+          "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3f069dc937932643b9207cdfd9a9fc0c.jpg",
+          "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/8a18c64ed2501dc0500783b45d7220b6.jpg",
+          "https://www.prada.com/content/dam/pradabkg_products/U/UPW/UPW404/1Y7QF0806/UPW404_1Y7Q_F0806_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 6,
+        "title": "Versace V-Neck Side Slit Cape Dress",
+        "categories": "Woman's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 292.53,
+        "rating": 4.5,
+        "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/04d268648793841235cccf09b36f10d7.jpg",
+        "thumbnails": [
+          "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/04d268648793841235cccf09b36f10d7.jpg",
+          "https://cdn-images.farfetch-contents.com/19/40/95/81/19409581_43716342_1000.jpg",
+          "https://cdn-images.farfetch-contents.com/19/40/95/81/19409581_43716356_1000.jpg"
+        ]
+      },
+      "id": 5
+    }
+  ]
 }
