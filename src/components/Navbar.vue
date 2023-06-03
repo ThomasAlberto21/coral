@@ -40,7 +40,7 @@
                 <router-link to="/man_products" class="dropdown-item">Man's Products</router-link>
               </li>
               <li>
-                <router-link to="/woman's_products" class="dropdown-item"
+                <router-link to="/woman_products" class="dropdown-item"
                   >Woman's Products</router-link
                 >
               </li>

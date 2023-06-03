@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import ContactView from '../views/ContactView.vue';
 import AllProductsView from '../views/AllProductsView.vue';
 import ManProductsView from '../views/ManProductsView.vue';
+import WomanProductsView from '../views/WomanProductsView.vue';
 
 // Detail views
 import AllProductsDetailView from '../views/AllProductsDetailView.vue';
@@ -41,6 +42,11 @@ const router = createRouter({
       path: '/man_products_detail/:id',
       name: 'ManProductsDetailView',
       component: ManProductsDetailView
+    },
+    {
+      path: '/woman_products',
+      name: 'WomanProductsView',
+      component: WomanProductsView
     },
     {
       path: '/contact',
