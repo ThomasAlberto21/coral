@@ -86,12 +86,8 @@ export default {
     fetchDataTrendingProducts() {
       axios
         .get('http://localhost:3000/trending_products/' + this.$route.params.id)
-        .then((response) => {
-          this.setProducts(response.data);
-        })
-        .catch((error) => {
-          console.log(error);
-        });
+        .then((response) => this.setProducts(response.data))
+        .catch((error) => console.log(error));
     }
   },
 
