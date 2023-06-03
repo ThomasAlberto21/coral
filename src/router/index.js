@@ -4,6 +4,7 @@ import ContactView from '../views/ContactView.vue';
 import AllProductsView from '../views/AllProductsView.vue';
 import ManProductsView from '../views/ManProductsView.vue';
 import WomanProductsView from '../views/WomanProductsView.vue';
+import CartView from '../views/CartView.vue';
 
 // Detail views
 import AllProductsDetailView from '../views/AllProductsDetailView.vue';
@@ -53,6 +54,11 @@ const router = createRouter({
       path: '/woman_products_detail/:id',
       name: 'WomanProductsDetailView',
       component: WomanProductsDetailView
+    },
+    {
+      path: '/cart',
+      name: 'CartView',
+      component: CartView
     },
     {
       path: '/contact',
