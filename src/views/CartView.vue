@@ -32,6 +32,14 @@
                   </button>
                 </td>
               </tr>
+
+              <tr>
+                <td colspan="4" class="text-end">Total Price :</td>
+                <td>
+                  <strong>${{ totalPrice }}</strong>
+                </td>
+                <td></td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -75,6 +83,16 @@ export default {
       .get('http://localhost:3000/carts')
       .then((response) => this.setCarts(response.data))
       .catch((error) => console.log(error));
+  },
+
+  computed: {
+    totalPrice() {
+      let total = 0;
+      this.carts.forEach((cart) => {
+        total += cart.products.price * cart.quantity;
+      });
+      return total;
+    }
   }
 };
 </script>
