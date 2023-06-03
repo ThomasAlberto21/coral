@@ -2,18 +2,18 @@
   <section class="categories">
     <div class="container my-5">
       <div class="row justify-content-center align-items-center mt-4 mb-5 gap-lg-0 gap-md-3 gap-2">
-        <div class="man_model col-lg-6 position-relative">
+        <router-link to="/man_products" class="man_model col-lg-6 position-relative">
           <div class="label position-absolute bottom-0 ms-2">
             <h3 class="text-light fw-bold">Man's Products</h3>
-            <p class="text-light">20 Items</p>
+            <p class="text-light">6 Items</p>
           </div>
-        </div>
-        <div class="girl_model col-lg-6 position-relative">
+        </router-link>
+        <router-link to="/woman_products" class="girl_model col-lg-6 position-relative">
           <div class="label position-absolute bottom-0 ms-2">
             <h3 class="text-light fw-bold">Woman's Products</h3>
-            <p class="text-light">20 Items</p>
+            <p class="text-light">6 Items</p>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
   </section>
