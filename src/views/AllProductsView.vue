@@ -1,5 +1,5 @@
 <template>
-  <section class="all_products">
+  <section class="all_products_view">
     <div class="container">
       <div class="row my-5">
         <div class="col-6">

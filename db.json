@@ -225,5 +225,90 @@
         "https://cdn-images.farfetch-contents.com/19/40/95/81/19409581_43716356_1000.jpg"
       ]
     }
+  ],
+  "man_products": [
+    {
+      "id": 1,
+      "title": "Gucci Print Leather Small Waistbag",
+      "categories": "Man's Fashion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+      "price": 799.94,
+      "rating": 4.5,
+      "image": "https://theluxeculture.com/wp-content/uploads/2022/08/1649392460496004.jpg",
+      "thumbnails": [
+        "https://theluxeculture.com/wp-content/uploads/2022/08/1649392460496004.jpg",
+        "https://cdn.shopify.com/s/files/1/0988/4598/products/guccibumbagsmall_8_1024x1024.jpg?v=1624044098",
+        "https://cdn.shopify.com/s/files/1/0988/4598/products/guccibumbagsmall_7_1024x1024.jpg?v=1624044098"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gucci Original Gg Canvas Baseball Hat With Web",
+      "categories": "Man's Fashion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+      "price": 402.22,
+      "rating": 4.8,
+      "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/a781e75d-63bc-49fa-879a-48998f60e735.jpg",
+      "thumbnails": [
+        "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/a781e75d-63bc-49fa-879a-48998f60e735.jpg",
+        "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/7a8a0f76-db3c-4cfd-be9d-a6af89261711.jpg",
+        "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/10/6541855e-12f1-4858-b1b9-d5a246859d61.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "PRADA Revesible Padded Vest",
+      "categories": "Man's Fashion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+      "price": 352.23,
+      "rating": 4.9,
+      "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/380be9dbf5c97518c23578a9aef46236.jpg",
+      "thumbnails": [
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/380be9dbf5c97518c23578a9aef46236.jpg",
+        "https://www.prada.com/content/dam/pradabkg_products/S/SGB/SGB801/1YDOF0N13/SGB801_1YDO_F0N13_S_212_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg",
+        "https://www.prada.com/content/dam/pradabkg_products/S/SGB/SGB801/1YDOF0N13/SGB801_1YDO_F0N13_S_212_MDB.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "PRADA Chest Logo Embroidered Jumper",
+      "categories": "Man's Fashion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+      "price": 322.93,
+      "rating": 4.8,
+      "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/5a656f5bc84132c4ba326115dc500525.jpg",
+      "thumbnails": [
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/5a656f5bc84132c4ba326115dc500525.jpg",
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/bf64353393998827f32385e5ae30bb0d.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "PRADA Logo Detailed Reversible Shearling Jacket",
+      "categories": "Man's Fashion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+      "price": 552.13,
+      "rating": 4.7,
+      "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3f069dc937932643b9207cdfd9a9fc0c.jpg",
+      "thumbnails": [
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3f069dc937932643b9207cdfd9a9fc0c.jpg",
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/8a18c64ed2501dc0500783b45d7220b6.jpg",
+        "https://www.prada.com/content/dam/pradabkg_products/U/UPW/UPW404/1Y7QF0806/UPW404_1Y7Q_F0806_MDF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "PRADA Logo Plaque Blazer",
+      "categories": "Man's Fashion",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+      "price": 952.12,
+      "rating": 4.6,
+      "image": "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/ec56aefe7d8b72b687d0aa1bd5ce02cd.jpg",
+      "thumbnails": [
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/ec56aefe7d8b72b687d0aa1bd5ce02cd.jpg",
+        "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/92611a007d50036c856929ff37436551.jpg",
+        "https://cdn-images.farfetch-contents.com/18/31/72/87/18317287_39241943_1000.jpg"
+      ]
+    }
   ]
 }
