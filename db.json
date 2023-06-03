@@ -397,5 +397,78 @@
       ]
     }
   ],
-  "carts": []
+  "carts": [
+    {
+      "quantity": 2,
+      "products": {
+        "id": 5,
+        "title": "CHANEL 1990s Interlocking CC-print dress",
+        "categories": "Woman's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 922.96,
+        "rating": 4.8,
+        "image": "https://cdn-images.farfetch-contents.com/17/21/62/97/17216297_35317410_1000.jpg",
+        "thumbnails": [
+          "https://cdn-images.farfetch-contents.com/17/21/62/97/17216297_35317410_1000.jpg",
+          "https://cdn-images.farfetch-contents.com/17/21/62/97/17216297_35317414_1000.jpg",
+          "https://cdn-images.farfetch-contents.com/17/21/62/97/17216297_35317413_1000.jpg"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 4,
+        "title": "LOUIS VUITTON Metal Detail Dress",
+        "categories": "Woman's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 475.54,
+        "rating": 4.9,
+        "image": "https://img.huntstreet.com/uploads/product/images/000/664/706/real/12%20(2)%20-%20Copy.jpg",
+        "thumbnails": [
+          "https://img.huntstreet.com/uploads/product/images/000/664/706/real/12%20(2)%20-%20Copy.jpg",
+          "https://img.huntstreet.com/uploads/product/images/000/664/710/real/12%20(1).jpg",
+          "https://img.huntstreet.com/uploads/product/images/000/664/707/real/12%20(2).jpg"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 1,
+        "title": "Gucci Print Leather Small Waistbag",
+        "categories": "Man's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 799.94,
+        "rating": 4.5,
+        "image": "https://theluxeculture.com/wp-content/uploads/2022/08/1649392460496004.jpg",
+        "thumbnails": [
+          "https://theluxeculture.com/wp-content/uploads/2022/08/1649392460496004.jpg",
+          "https://cdn.shopify.com/s/files/1/0988/4598/products/guccibumbagsmall_8_1024x1024.jpg?v=1624044098",
+          "https://cdn.shopify.com/s/files/1/0988/4598/products/guccibumbagsmall_7_1024x1024.jpg?v=1624044098"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "quantity": 1,
+      "products": {
+        "id": 2,
+        "title": "Gucci Original Gg Canvas Baseball Hat With Web",
+        "categories": "Man's Fashion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eos nulla doloremque veritatis. Doloremque ad praesentium neque voluptate iusto quam? Recusandae possimus mollitia quis deserunt necessitatibus aut perferendis, officiis ipsam nostrum, unde impedit illo debitis sunt nobis? Quae, quia officia. Quasi molestiae maiores quia, tenetur sapiente harum ad sit! Voluptatibus sed est distinctio perferendis ipsum voluptate officiis aspernatur, nostrum consequuntur corporis sapiente quas eos facilis reiciendis sequi nisi non voluptatum tenetur. Ipsa, asperiores quasi, quaerat eius soluta doloribus ex et voluptatibus a sunt at! Odit libero aliquam veniam fugit adipisci corporis perspiciatis, itaque tempora at officia quaerat exercitationem. Ipsa tenetur quae ut officia quod! Odit, incidunt non. Perspiciatis mollitia fugiat magni dicta consequuntur, at ducimus labore aperiam quo odio sit omnis animi eligendi eum, temporibus alias culpa a. Enim tenetur soluta ipsa omnis eligendi porro maiores sit. Modi impedit accusantium libero vel placeat quis, nulla consequuntur eveniet perferendis vero sed?",
+        "price": 402.22,
+        "rating": 4.8,
+        "image": "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/a781e75d-63bc-49fa-879a-48998f60e735.jpg",
+        "thumbnails": [
+          "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/a781e75d-63bc-49fa-879a-48998f60e735.jpg",
+          "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/28/7a8a0f76-db3c-4cfd-be9d-a6af89261711.jpg",
+          "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/10/6541855e-12f1-4858-b1b9-d5a246859d61.jpg"
+        ]
+      },
+      "id": 4
+    }
+  ]
 }
