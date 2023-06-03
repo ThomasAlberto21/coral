@@ -6,6 +6,7 @@ import ManProductsView from '../views/ManProductsView.vue';
 
 // Detail views
 import AllProductsDetailView from '../views/AllProductsDetailView.vue';
+import ManProductsDetailView from '../views/ManProductsDetailView.vue';
 import TrendingProductsDetailView from '../views/TrendingProductsDetailView.vue';
 
 const router = createRouter({
@@ -35,6 +36,11 @@ const router = createRouter({
       path: '/man_products',
       name: 'ManProductsView',
       component: ManProductsView
+    },
+    {
+      path: '/man_products_detail/:id',
+      name: 'ManProductsDetailView',
+      component: ManProductsDetailView
     },
     {
       path: '/contact',
