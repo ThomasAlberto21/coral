@@ -8,6 +8,7 @@ import WomanProductsView from '../views/WomanProductsView.vue';
 // Detail views
 import AllProductsDetailView from '../views/AllProductsDetailView.vue';
 import ManProductsDetailView from '../views/ManProductsDetailView.vue';
+import WomanProductsDetailView from '../views/WomanProductsDetailView.vue';
 import TrendingProductsDetailView from '../views/TrendingProductsDetailView.vue';
 
 const router = createRouter({
@@ -47,6 +48,11 @@ const router = createRouter({
       path: '/woman_products',
       name: 'WomanProductsView',
       component: WomanProductsView
+    },
+    {
+      path: '/woman_products_detail/:id',
+      name: 'WomanProductsDetailView',
+      component: WomanProductsDetailView
     },
     {
       path: '/contact',
