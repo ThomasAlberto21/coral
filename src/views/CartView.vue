@@ -42,6 +42,8 @@
               </tr>
             </tbody>
           </table>
+
+          <Modal :totalPrice="totalPrice" />
         </div>
       </div>
     </div>
@@ -50,10 +52,14 @@
 
 <script>
 import axios from 'axios';
+import Modal from '../components/Modal.vue';
 import { deleteCart } from '@/utils/toast';
 
 export default {
   name: 'CartView',
+  components: {
+    Modal
+  },
 
   data() {
     return {
