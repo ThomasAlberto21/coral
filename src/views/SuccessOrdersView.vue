@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col text-center">
           <img
-            src="../assets/images/success_order.png"
+            src="../assets/images/success_order_img.png"
             alt="success_order_img"
             class="img-fluid w-50"
           />
